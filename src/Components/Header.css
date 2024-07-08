@@ -1,0 +1,37 @@
+.menu-items {
+    list-style-type: none;
+    display: flex;
+    background-color: #333; /* Dark background color */
+    height: 60px; /* Increased height */
+    padding: 0 20px; /* Padding on the sides */
+    margin: 0;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .menu-items li {
+    margin-right: 20px;
+  }
+  
+  .menu-items li:last-child {
+    margin-right: 0;
+    margin-left: auto; /* Pushes the logout link to the right */
+  }
+  
+  .menu-items li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    padding: 20px 15px; /* Vertical padding increased */
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-items li a:hover {
+    background-color: #555; /* Darker background color on hover */
+  }
+  
+  /* Active link style */
+  .menu-items li a.active-link {
+    background-color: #555; /* Darker background color for active link */
+  }
+  
